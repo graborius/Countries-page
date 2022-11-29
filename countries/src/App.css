@@ -1,0 +1,72 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.App {
+   max-width: 1330px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  height:  100vh;
+
+  
+}
+body{
+
+
+  background-image: url('https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?cs=srgb&dl=pexels-pixabay-41949.jpg&fm=jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:top ;
+  background-size: cover;
+  
+}
+
+.country-text{
+
+  color: white;
+  
+  }
+
+a{
+  color: rgb(255, 255, 7);
+}
+
+ul.countries-links-list{
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.countries-title{
+  color: rgb(252, 36, 126);
+}
+
+
+.set-flag{
+
+width: 100px;
+
+}
+
+.country-title{
+  color: rgb(255, 255, 7);
+}
+
+.search-element{
+  color: rgb(255, 255, 7);
+}
+
+.input-title{
+  color: rgb(255, 255, 7);
+}
+ 
+.search-title{
+  color: rgb(255, 255, 7);
+}
+
+.search-flag{
+  width: 200px;
+}
+ 

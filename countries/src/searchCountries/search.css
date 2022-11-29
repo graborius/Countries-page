@@ -1,0 +1,29 @@
+.search-text{
+    box-shadow: 0px 0px 1px 1px;
+    color: yellow;
+    width: 374px;
+}
+
+.search-wrapper{
+
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.search-title{
+    color: white;
+}
+
+.search-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:  100vh;
+}
+
+.search-button{
+    cursor: pointer
+}
